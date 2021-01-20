@@ -4,8 +4,11 @@ This is a responsive webpage that allows users to search for stocks using the Ti
 
 Technologies used:
 -HTML5, Bootstrap and Angular on client side
+
 -Node.js on server side
+
 -APIs such as Tiingo API and NewsAPI
+
 -AWS Cloud for hosting
 
 You can see the reference video used for developing this at:
