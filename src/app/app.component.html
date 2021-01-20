@@ -1,0 +1,41 @@
+
+<head><link rel="stylesheet" href="app.component.css">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<!--<div>-->
+<!--&lt;!&ndash;  <h1>Hello {{ name.toUpperCase() }}</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;  {{1+1}}&ndash;&gt;-->
+
+<!--</div>-->
+<body  class="d-flex flex-column min-vh-100">
+<div class="header " style="width:100%;position: fixed; top: 0px; z-index: +1; margin-bottom:100px ">
+  <a routerLink="/search" class="logo">Stock Search</a>
+    <div class="header-right ">
+      <nav class="navbar navbar-toggleable-sm navbar-inverse navbar-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navgn">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navgn">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" routerLink="/search">Search</a>
+            <a class="nav-item nav-link" routerLink="/watchlist" routerLinkActive="active" >Watchlist</a>
+            <a class="nav-item nav-link" routerLink="/portfolio" routerLinkActive="active" >Portfolio</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+</div>
+
+<div class="headerss">
+  <router-outlet></router-outlet>
+</div>
+
+
+<!--<div><app-navbar></app-navbar></div>-->
+<!--<div><app-searchbar></app-searchbar></div>-->
+
+
+<footer class="mt-auto" name="bottom-bar" id="bottom-bar" style="background-color: rgba(141,141,141,0.30); bottom: 0px; text-align: center; padding: 20px; width: 100%; color: rgba(0,0,0,0.64)">Powered by Tiingo. Developed by Sudeeptha Mouni Ganji.
+</footer>
+</body>
